@@ -58,22 +58,6 @@ azure-threat-monitor/
 
 ---
 
-## 📊 Alert Rules
-| Rule | Severity | MITRE Tactic | MITRE Technique |
-|------|----------|--------------|-----------------|
-| Brute Force Detection | High | Credential Access | T1110 |
-| Port Scan Detection | Medium | Discovery | T1046 |
-
----
-
-## 🔐 NIST CSF Mapping
-| Event | Identify | Protect | Detect | Respond | Recover |
-|-------|----------|---------|--------|---------|---------|
-| Brute Force | ✅ | | ✅ | ✅ | |
-| Port Scan | ✅ | | ✅ | ✅ | |
-
----
-
 ## 📸 Screenshots
 > Add your Sentinel incident screenshots here
 
