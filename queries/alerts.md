@@ -27,3 +27,8 @@ PortScanSimulation_CL
 | extend MITRETechnique = "T1046 - Network Service Discovery"
 | extend Recommendation = "Block IP and investigate scanning activity"
 ```
+## 📊 Alert Rules
+| Rule | Severity | MITRE Tactic | MITRE Technique |
+|------|----------|--------------|-----------------|
+| Brute Force Detection | High | Credential Access | T1110 |
+| Port Scan Detection | Medium | Discovery | T1046 |
