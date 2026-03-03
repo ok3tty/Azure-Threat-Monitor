@@ -60,14 +60,14 @@ azure-threat-monitor/
 
 ## 📸 Screenshots
 
-    -- Simulation Scripts
+- Simulation Scripts
     ![Port Scan and Brute Force Simulation Script Running](screenshots/scriptsran.png)
 
-        -- Port Scan Simulation
+- Port Scan Simulation
     ![Port Scan Alert Creation](screenshots/portscandetectrule.png)
     ![Port Scan Incident Response](screenshots/portscanincident.png)
 
-    -- Brute Force Simulation
+  - Brute Force Simulation
     ![Brute Force Alert Creation](screenshots/BF_alert_creation.png)
     ![Brute Force Incident Response](screenshots/BF_IncidentR.png)
 
