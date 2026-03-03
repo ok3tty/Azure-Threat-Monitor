@@ -59,7 +59,17 @@ azure-threat-monitor/
 ---
 
 ## 📸 Screenshots
-> Add your Sentinel incident screenshots here
+
+    -- Simulation Scripts
+    ![Port Scan and Brute Force Simulation Script Running](screenshots/scriptsran.png)
+
+        -- Port Scan Simulation
+    ![Port Scan Alert Creation](screenshots/portscandetectrule.png)
+    ![Port Scan Incident Response](screenshots/portscanincident.png)
+
+    -- Brute Force Simulation
+    ![Brute Force Alert Creation](screenshots/BF_alert_creation.png)
+    ![Brute Force Incident Response](screenshots/BF_IncidentR.png)
 
 ---
 
@@ -85,3 +95,4 @@ python3 scripts/port_scan.py
 ## ⚠️ Warning
 This project is for educational purposes (Homelab project) only. All threat simulations and scanning 
 are conducted in a controlled Azure environment with no real systems targeted. Please do not do this project outside any isolated environment from your local machine
+
