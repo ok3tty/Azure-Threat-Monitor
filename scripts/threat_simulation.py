@@ -7,8 +7,8 @@ from datetime import datetime, timezone
 import time
 
 # Your credentials - keep these private!
-workspace_id = "9a897498-bd74-42c9-90e6-d89767ae75b2"
-primary_key = "Q33T5KQWuW9SBjikl3alFAiMPay12MiAdZDGYtYB5W//68CFBrN184qnEYed01Mx61rvVXbS8+7rWBqbaXisdQ"
+workspace_id = "WORKSPACE ID"
+primary_key = "PRIMARY KEY"
 log_type = "ThreatSimulation"
 
 def build_signature(date, content_length, method, content_type, resource):
