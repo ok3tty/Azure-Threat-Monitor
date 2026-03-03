@@ -23,7 +23,7 @@ azure-threat-monitor/
 ├── README.md
 ├── scripts/
 │   ├── threat_simulation.py       # Brute force login simulation
-│   └── port_scan_simulation.py    # Port scan simulation
+│   └── port_scan.py    # Port scan simulation
 ├── queries/
 │   └── alerts.md                  # KQL detection queries
 └── docs/
