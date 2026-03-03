@@ -7,15 +7,15 @@ from datetime import datetime, timezone
 import time
 
 # Your credentials - keep these private!
-workspace_id = "YOUR_WORKSPACE_ID"
-primary_key = "YOUR_PRIMARY_KEY"
+workspace_id = "9a897498-bd74-42c9-90e6-d89767ae75b2"
+primary_key = "Q33T5KQWuW9SBjikl3alFAiMPay12MiAdZDGYtYB5W//68CFBrN184qnEYed01Mx61rvVXbS8+7rWBqbaXisdQ"
 log_type = "ThreatSimulation"
 
 def build_signature(date, content_length, method, content_type, resource):
     x_headers = f"x-ms-date:{date}"
     string_to_hash = f"{method}\n{content_length}\n{content_type}\n{x_headers}\n{resource}"
     bytes_to_hash = string_to_hash.encode("utf-8")
-    decoded_key = base64.b64decode(primary_key)
+    decoded_key = base64.b64decode(primary_key + "==")
     encoded_hash = base64.b64encode(
         hmac.new(decoded_key, bytes_to_hash, digestmod=hashlib.sha256).digest()
     ).decode("utf-8")
